@@ -1,0 +1,11 @@
+{
+  "taxationWallet": "0x6aB29B1766256F01df388B3a25d02C24f454020c",
+  "peggedTotemTokenProxyAdmin": "0x199Ba9ad2CE47272cA2EB4e3D9530AEd09AbDB51",
+  "bscBridgeAgentProxyAdmin": "0x199Ba9ad2CE47272cA2EB4e3D9530AEd09AbDB51",
+  "metisBridgeAgentProxyAdmin": "0x199Ba9ad2CE47272cA2EB4e3D9530AEd09AbDB51",
+  "pancakeswapRouter": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+  "pancakePair": "0xCdd9E64f2ad47Da659152cB969fCc088391C2aAC",
+  "wbnb": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+  "totemToken": "0x6ff1bfa14a57594a5874b37ff6ac5efbd9f9599a",
+  "slippagePercentage": "300"
+}

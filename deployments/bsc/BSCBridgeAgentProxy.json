@@ -1,0 +1,473 @@
+{
+  "address": "0x1A40b5F3A6AdE6e182c4fA5b3bE10D422A081Cb1",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_proxyAdmin",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "oldImpl",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "newImpl",
+          "type": "address"
+        }
+      ],
+      "name": "ImplementationUpgraded",
+      "type": "event"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "bscBridgeAgentImpl",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "disableUpgrade",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "enableUpgrade",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_pancakeswapRouter",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_pancakePair",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_wbnb",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_totemToken",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_slippagePercentage",
+          "type": "uint256"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pancakePair",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pancakeswapRouter",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "proxyAdmin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "slippagePercentage",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "swapDataMap",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "nonce",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "exchange",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "swapType",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totemToken",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "upgradeEnabled",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newBSCBridgeAgentImpl",
+          "type": "address"
+        }
+      ],
+      "name": "upgradeTo",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "wbnb",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "transactionHash": "0x59617ea4f8d0a585de72d6eb10fb662ef22b325823e834eed53c1efacb0b815d",
+  "receipt": {
+    "to": null,
+    "from": "0x6aB29B1766256F01df388B3a25d02C24f454020c",
+    "contractAddress": "0x1A40b5F3A6AdE6e182c4fA5b3bE10D422A081Cb1",
+    "transactionIndex": 1,
+    "gasUsed": "651847",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x35e511890f3e42395b27ea7b4705af48f97a91c25d232e7fce0977139a3a391a",
+    "transactionHash": "0x59617ea4f8d0a585de72d6eb10fb662ef22b325823e834eed53c1efacb0b815d",
+    "logs": [],
+    "blockNumber": 16502449,
+    "cumulativeGasUsed": "822289",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x199Ba9ad2CE47272cA2EB4e3D9530AEd09AbDB51"
+  ],
+  "solcInputHash": "cdaa94df5d40640b6ba2811ed54caff6",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_proxyAdmin\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"oldImpl\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"newImpl\",\"type\":\"address\"}],\"name\":\"ImplementationUpgraded\",\"type\":\"event\"},{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[],\"name\":\"bscBridgeAgentImpl\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"disableUpgrade\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"enableUpgrade\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_pancakeswapRouter\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_pancakePair\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_wbnb\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_totemToken\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_slippagePercentage\",\"type\":\"uint256\"}],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pancakePair\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pancakeswapRouter\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"proxyAdmin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"slippagePercentage\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"name\":\"swapDataMap\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"nonce\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"exchange\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"swapType\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totemToken\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"upgradeEnabled\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newBSCBridgeAgentImpl\",\"type\":\"address\"}],\"name\":\"upgradeTo\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"wbnb\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/BSCAgent/BSCBridgeAgentProxy.sol\":\"BSCBridgeAgentProxy\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev This is a base contract to aid in writing upgradeable contracts, or any kind of contract that will be deployed\\n * behind a proxy. Since a proxied contract can't have a constructor, it's common to move constructor logic to an\\n * external initializer function, usually called `initialize`. It then becomes necessary to protect this initializer\\n * function so it can only be called once. The {initializer} modifier provided by this contract will have this effect.\\n *\\n * TIP: To avoid leaving the proxy in an uninitialized state, the initializer function should be called as early as\\n * possible by providing the encoded function call as the `_data` argument to {ERC1967Proxy-constructor}.\\n *\\n * CAUTION: When used with inheritance, manual care must be taken to not invoke a parent initializer twice, or to ensure\\n * that all initializers are idempotent. This is not verified automatically as constructors are by Solidity.\\n */\\nabstract contract Initializable {\\n    /**\\n     * @dev Indicates that the contract has been initialized.\\n     */\\n    bool private _initialized;\\n\\n    /**\\n     * @dev Indicates that the contract is in the process of being initialized.\\n     */\\n    bool private _initializing;\\n\\n    /**\\n     * @dev Modifier to protect an initializer function from being invoked twice.\\n     */\\n    modifier initializer() {\\n        require(_initializing || !_initialized, \\\"Initializable: contract is already initialized\\\");\\n\\n        bool isTopLevelCall = !_initializing;\\n        if (isTopLevelCall) {\\n            _initializing = true;\\n            _initialized = true;\\n        }\\n\\n        _;\\n\\n        if (isTopLevelCall) {\\n            _initializing = false;\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x8b2abd85d0ece7e866e100e9d47ca9cbec93c87cf71a8d267b2b93eb81f7d5e9\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Interface of the ERC20 standard as defined in the EIP.\\n */\\ninterface IERC20Upgradeable {\\n    /**\\n     * @dev Returns the amount of tokens in existence.\\n     */\\n    function totalSupply() external view returns (uint256);\\n\\n    /**\\n     * @dev Returns the amount of tokens owned by `account`.\\n     */\\n    function balanceOf(address account) external view returns (uint256);\\n\\n    /**\\n     * @dev Moves `amount` tokens from the caller's account to `recipient`.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transfer(address recipient, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Returns the remaining number of tokens that `spender` will be\\n     * allowed to spend on behalf of `owner` through {transferFrom}. This is\\n     * zero by default.\\n     *\\n     * This value changes when {approve} or {transferFrom} are called.\\n     */\\n    function allowance(address owner, address spender) external view returns (uint256);\\n\\n    /**\\n     * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * IMPORTANT: Beware that changing an allowance with this method brings the risk\\n     * that someone may use both the old and the new allowance by unfortunate\\n     * transaction ordering. One possible solution to mitigate this race\\n     * condition is to first reduce the spender's allowance to 0 and set the\\n     * desired value afterwards:\\n     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\\n     *\\n     * Emits an {Approval} event.\\n     */\\n    function approve(address spender, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Moves `amount` tokens from `sender` to `recipient` using the\\n     * allowance mechanism. `amount` is then deducted from the caller's\\n     * allowance.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transferFrom(\\n        address sender,\\n        address recipient,\\n        uint256 amount\\n    ) external returns (bool);\\n\\n    /**\\n     * @dev Emitted when `value` tokens are moved from one account (`from`) to\\n     * another (`to`).\\n     *\\n     * Note that `value` may be zero.\\n     */\\n    event Transfer(address indexed from, address indexed to, uint256 value);\\n\\n    /**\\n     * @dev Emitted when the allowance of a `spender` for an `owner` is set by\\n     * a call to {approve}. `value` is the new allowance.\\n     */\\n    event Approval(address indexed owner, address indexed spender, uint256 value);\\n}\\n\",\"keccak256\":\"0xf449ca0a763d4b1b4462cf8706857074492f324020a2b9d099181b5383055ad3\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../IERC20Upgradeable.sol\\\";\\nimport \\\"../../../utils/AddressUpgradeable.sol\\\";\\n\\n/**\\n * @title SafeERC20\\n * @dev Wrappers around ERC20 operations that throw on failure (when the token\\n * contract returns false). Tokens that return no value (and instead revert or\\n * throw on failure) are also supported, non-reverting calls are assumed to be\\n * successful.\\n * To use this library you can add a `using SafeERC20 for IERC20;` statement to your contract,\\n * which allows you to call the safe operations as `token.safeTransfer(...)`, etc.\\n */\\nlibrary SafeERC20Upgradeable {\\n    using AddressUpgradeable for address;\\n\\n    function safeTransfer(\\n        IERC20Upgradeable token,\\n        address to,\\n        uint256 value\\n    ) internal {\\n        _callOptionalReturn(token, abi.encodeWithSelector(token.transfer.selector, to, value));\\n    }\\n\\n    function safeTransferFrom(\\n        IERC20Upgradeable token,\\n        address from,\\n        address to,\\n        uint256 value\\n    ) internal {\\n        _callOptionalReturn(token, abi.encodeWithSelector(token.transferFrom.selector, from, to, value));\\n    }\\n\\n    /**\\n     * @dev Deprecated. This function has issues similar to the ones found in\\n     * {IERC20-approve}, and its usage is discouraged.\\n     *\\n     * Whenever possible, use {safeIncreaseAllowance} and\\n     * {safeDecreaseAllowance} instead.\\n     */\\n    function safeApprove(\\n        IERC20Upgradeable token,\\n        address spender,\\n        uint256 value\\n    ) internal {\\n        // safeApprove should only be called when setting an initial allowance,\\n        // or when resetting it to zero. To increase and decrease it, use\\n        // 'safeIncreaseAllowance' and 'safeDecreaseAllowance'\\n        require(\\n            (value == 0) || (token.allowance(address(this), spender) == 0),\\n            \\\"SafeERC20: approve from non-zero to non-zero allowance\\\"\\n        );\\n        _callOptionalReturn(token, abi.encodeWithSelector(token.approve.selector, spender, value));\\n    }\\n\\n    function safeIncreaseAllowance(\\n        IERC20Upgradeable token,\\n        address spender,\\n        uint256 value\\n    ) internal {\\n        uint256 newAllowance = token.allowance(address(this), spender) + value;\\n        _callOptionalReturn(token, abi.encodeWithSelector(token.approve.selector, spender, newAllowance));\\n    }\\n\\n    function safeDecreaseAllowance(\\n        IERC20Upgradeable token,\\n        address spender,\\n        uint256 value\\n    ) internal {\\n        unchecked {\\n            uint256 oldAllowance = token.allowance(address(this), spender);\\n            require(oldAllowance >= value, \\\"SafeERC20: decreased allowance below zero\\\");\\n            uint256 newAllowance = oldAllowance - value;\\n            _callOptionalReturn(token, abi.encodeWithSelector(token.approve.selector, spender, newAllowance));\\n        }\\n    }\\n\\n    /**\\n     * @dev Imitates a Solidity high-level call (i.e. a regular function call to a contract), relaxing the requirement\\n     * on the return value: the return value is optional (but if data is returned, it must not be false).\\n     * @param token The token targeted by the call.\\n     * @param data The call data (encoded using abi.encode or one of its variants).\\n     */\\n    function _callOptionalReturn(IERC20Upgradeable token, bytes memory data) private {\\n        // We need to perform a low level call here, to bypass Solidity's return data size checking mechanism, since\\n        // we're implementing it ourselves. We use {Address.functionCall} to perform this call, which verifies that\\n        // the target address contains contract code and also asserts for success in the low-level call.\\n\\n        bytes memory returndata = address(token).functionCall(data, \\\"SafeERC20: low-level call failed\\\");\\n        if (returndata.length > 0) {\\n            // Return data is optional\\n            require(abi.decode(returndata, (bool)), \\\"SafeERC20: ERC20 operation did not succeed\\\");\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0xc7d7fe7d5ed5068742927e37b400591153dbe8526cd942cfcf5dbb971ba5e8e2\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Collection of functions related to the address type\\n */\\nlibrary AddressUpgradeable {\\n    /**\\n     * @dev Returns true if `account` is a contract.\\n     *\\n     * [IMPORTANT]\\n     * ====\\n     * It is unsafe to assume that an address for which this function returns\\n     * false is an externally-owned account (EOA) and not a contract.\\n     *\\n     * Among others, `isContract` will return false for the following\\n     * types of addresses:\\n     *\\n     *  - an externally-owned account\\n     *  - a contract in construction\\n     *  - an address where a contract will be created\\n     *  - an address where a contract lived, but was destroyed\\n     * ====\\n     */\\n    function isContract(address account) internal view returns (bool) {\\n        // This method relies on extcodesize, which returns 0 for contracts in\\n        // construction, since the code is only stored at the end of the\\n        // constructor execution.\\n\\n        uint256 size;\\n        assembly {\\n            size := extcodesize(account)\\n        }\\n        return size > 0;\\n    }\\n\\n    /**\\n     * @dev Replacement for Solidity's `transfer`: sends `amount` wei to\\n     * `recipient`, forwarding all available gas and reverting on errors.\\n     *\\n     * https://eips.ethereum.org/EIPS/eip-1884[EIP1884] increases the gas cost\\n     * of certain opcodes, possibly making contracts go over the 2300 gas limit\\n     * imposed by `transfer`, making them unable to receive funds via\\n     * `transfer`. {sendValue} removes this limitation.\\n     *\\n     * https://diligence.consensys.net/posts/2019/09/stop-using-soliditys-transfer-now/[Learn more].\\n     *\\n     * IMPORTANT: because control is transferred to `recipient`, care must be\\n     * taken to not create reentrancy vulnerabilities. Consider using\\n     * {ReentrancyGuard} or the\\n     * https://solidity.readthedocs.io/en/v0.5.11/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].\\n     */\\n    function sendValue(address payable recipient, uint256 amount) internal {\\n        require(address(this).balance >= amount, \\\"Address: insufficient balance\\\");\\n\\n        (bool success, ) = recipient.call{value: amount}(\\\"\\\");\\n        require(success, \\\"Address: unable to send value, recipient may have reverted\\\");\\n    }\\n\\n    /**\\n     * @dev Performs a Solidity function call using a low level `call`. A\\n     * plain `call` is an unsafe replacement for a function call: use this\\n     * function instead.\\n     *\\n     * If `target` reverts with a revert reason, it is bubbled up by this\\n     * function (like regular Solidity function calls).\\n     *\\n     * Returns the raw returned data. To convert to the expected return value,\\n     * use https://solidity.readthedocs.io/en/latest/units-and-global-variables.html?highlight=abi.decode#abi-encoding-and-decoding-functions[`abi.decode`].\\n     *\\n     * Requirements:\\n     *\\n     * - `target` must be a contract.\\n     * - calling `target` with `data` must not revert.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCall(address target, bytes memory data) internal returns (bytes memory) {\\n        return functionCall(target, data, \\\"Address: low-level call failed\\\");\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`], but with\\n     * `errorMessage` as a fallback revert reason when `target` reverts.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCall(\\n        address target,\\n        bytes memory data,\\n        string memory errorMessage\\n    ) internal returns (bytes memory) {\\n        return functionCallWithValue(target, data, 0, errorMessage);\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],\\n     * but also transferring `value` wei to `target`.\\n     *\\n     * Requirements:\\n     *\\n     * - the calling contract must have an ETH balance of at least `value`.\\n     * - the called Solidity function must be `payable`.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCallWithValue(\\n        address target,\\n        bytes memory data,\\n        uint256 value\\n    ) internal returns (bytes memory) {\\n        return functionCallWithValue(target, data, value, \\\"Address: low-level call with value failed\\\");\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCallWithValue-address-bytes-uint256-}[`functionCallWithValue`], but\\n     * with `errorMessage` as a fallback revert reason when `target` reverts.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCallWithValue(\\n        address target,\\n        bytes memory data,\\n        uint256 value,\\n        string memory errorMessage\\n    ) internal returns (bytes memory) {\\n        require(address(this).balance >= value, \\\"Address: insufficient balance for call\\\");\\n        require(isContract(target), \\\"Address: call to non-contract\\\");\\n\\n        (bool success, bytes memory returndata) = target.call{value: value}(data);\\n        return verifyCallResult(success, returndata, errorMessage);\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],\\n     * but performing a static call.\\n     *\\n     * _Available since v3.3._\\n     */\\n    function functionStaticCall(address target, bytes memory data) internal view returns (bytes memory) {\\n        return functionStaticCall(target, data, \\\"Address: low-level static call failed\\\");\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-string-}[`functionCall`],\\n     * but performing a static call.\\n     *\\n     * _Available since v3.3._\\n     */\\n    function functionStaticCall(\\n        address target,\\n        bytes memory data,\\n        string memory errorMessage\\n    ) internal view returns (bytes memory) {\\n        require(isContract(target), \\\"Address: static call to non-contract\\\");\\n\\n        (bool success, bytes memory returndata) = target.staticcall(data);\\n        return verifyCallResult(success, returndata, errorMessage);\\n    }\\n\\n    /**\\n     * @dev Tool to verifies that a low level call was successful, and revert if it wasn't, either by bubbling the\\n     * revert reason using the provided one.\\n     *\\n     * _Available since v4.3._\\n     */\\n    function verifyCallResult(\\n        bool success,\\n        bytes memory returndata,\\n        string memory errorMessage\\n    ) internal pure returns (bytes memory) {\\n        if (success) {\\n            return returndata;\\n        } else {\\n            // Look for revert reason and bubble it up if present\\n            if (returndata.length > 0) {\\n                // The easiest way to bubble the revert reason is using memory via assembly\\n\\n                assembly {\\n                    let returndata_size := mload(returndata)\\n                    revert(add(32, returndata), returndata_size)\\n                }\\n            } else {\\n                revert(errorMessage);\\n            }\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x946f08c0a132c5877d458d7af7956da60607f20a5c03dd75760708c848aae6b7\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\nimport \\\"../proxy/utils/Initializable.sol\\\";\\n\\n/**\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract ContextUpgradeable is Initializable {\\n    function __Context_init() internal initializer {\\n        __Context_init_unchained();\\n    }\\n\\n    function __Context_init_unchained() internal initializer {\\n    }\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n    uint256[50] private __gap;\\n}\\n\",\"keccak256\":\"0x062b5a0f7cc6b0528fa350033759f3a15ba42afb57423d7c593753860f2c82e0\",\"license\":\"MIT\"},\"contracts/BSCAgent/BSCBridgeAgentProxy.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity 0.8.11;\\n\\nimport \\\"./BSCBridgeAgentStorageStructure.sol\\\";\\n\\ncontract BSCBridgeAgentProxy is BSCBridgeAgentStorageStructure {\\n    event ImplementationUpgraded(address oldImpl, address newImpl);\\n\\n    modifier onlyProxyAdmin() {\\n        require(\\n            _msgSender() == proxyAdmin,\\n            \\\"can only be called by the proxy admin\\\"\\n        );\\n        _;\\n    }\\n\\n    modifier onlyOwner() {\\n        require(_msgSender() == owner, \\\"can only be called by the proxy admin\\\");\\n        _;\\n    }\\n\\n    constructor(address _proxyAdmin) {\\n        upgradeEnabled = true;\\n        proxyAdmin = _proxyAdmin;\\n        owner = _msgSender();\\n    }\\n\\n    function upgradeTo(address _newBSCBridgeAgentImpl) external onlyOwner {\\n        require(upgradeEnabled, \\\"Upgrade is not enabled yet\\\");\\n        require(\\n            bscBridgeAgentImpl != _newBSCBridgeAgentImpl,\\n            \\\"Is already the implementation\\\"\\n        );\\n        _setBSCBridgeAgentImpl(_newBSCBridgeAgentImpl);\\n        upgradeEnabled = false;\\n    }\\n\\n    function enableUpgrade() external onlyProxyAdmin {\\n        upgradeEnabled = true;\\n    }\\n\\n    function disableUpgrade() external onlyProxyAdmin {\\n        upgradeEnabled = false;\\n    }\\n\\n    function initialize(\\n        address _pancakeswapRouter,\\n        address _pancakePair,\\n        address _wbnb,\\n        address _totemToken,\\n        uint256 _slippagePercentage\\n    ) public initializer onlyOwner {\\n        ContextUpgradeable.__Context_init();\\n\\n        pancakeswapRouter = _pancakeswapRouter;\\n        pancakePair = _pancakePair;\\n        wbnb = _wbnb;\\n        totemToken = _totemToken;\\n\\n        slippagePercentage = _slippagePercentage;\\n    }\\n\\n    function _setBSCBridgeAgentImpl(address _newBSCBridgeAgentImpl) internal {\\n        address oldImpl = bscBridgeAgentImpl;\\n        bscBridgeAgentImpl = _newBSCBridgeAgentImpl;\\n        emit ImplementationUpgraded(oldImpl, bscBridgeAgentImpl);\\n    }\\n\\n    fallback() external payable {\\n        address opr = bscBridgeAgentImpl;\\n        require(opr != address(0));\\n        assembly {\\n            calldatacopy(0, 0, calldatasize())\\n            let result := delegatecall(gas(), opr, 0, calldatasize(), 0, 0)\\n            returndatacopy(0, 0, returndatasize())\\n            switch result\\n            case 0 {\\n                revert(0, returndatasize())\\n            }\\n            default {\\n                return(0, returndatasize())\\n            }\\n        }\\n    }\\n\\n    receive() external payable {}\\n}\\n\",\"keccak256\":\"0x79f0ad63c332ce4d980e11bb72d024846cba3f1a15b0ab24e72240803ea05c4e\",\"license\":\"UNLICENSED\"},\"contracts/BSCAgent/BSCBridgeAgentStorageStructure.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity 0.8.11;\\n\\nimport \\\"@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol\\\";\\nimport \\\"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\\\";\\nimport \\\"@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol\\\";\\nimport \\\"../interfaces/IMessageStructure.sol\\\";\\nimport \\\"../interfaces/IPancakeRouter.sol\\\";\\nimport \\\"../interfaces/IPancakePair.sol\\\";\\nimport \\\"../libraries/VerifySignature.sol\\\";\\n\\ncontract BSCBridgeAgentStorageStructure is\\n    IMessageStructure,\\n    Initializable,\\n    ContextUpgradeable\\n{\\n    struct SwapData {\\n        uint256 nonce;\\n        uint256 exchange;\\n        string swapType;\\n    }\\n\\n    address public bscBridgeAgentImpl;\\n    address public proxyAdmin;\\n    address public owner;\\n    address public wbnb;\\n    address public totemToken;\\n    address public pancakeswapRouter;\\n    address public pancakePair;\\n\\n    uint256 public slippagePercentage;\\n\\n    bool public upgradeEnabled;\\n\\n    // Message public message;\\n    // DomainSeparator public domain;\\n\\n    /*\\n     * map (address => mapping(txhash => SwapData)))\\n     */\\n    mapping(address => mapping(bytes32 => SwapData)) public swapDataMap;\\n}\\n\",\"keccak256\":\"0xe07b63bdb32f5b438987561ad9db2f7e6ef071b1cf17e6758c7d8b4fc141727a\",\"license\":\"UNLICENSED\"},\"contracts/interfaces/IMessageStructure.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\ninterface IMessageStructure {\\n    struct Message {\\n        string swapType;\\n        string base; // MTS\\n        string quote; // TOTM\\n        uint256 amount; // metis amount\\n        uint256 fee; // fee in totem\\n        uint256 exchange; // totem amount\\n        uint256 nonce;\\n        uint256 deadline;\\n        address account;    \\n    }\\n\\n    struct DomainSeparator {\\n        string name;\\n        string version;\\n        uint256 chainId;\\n        address verifyingContract;\\n    }\\n}\\n\",\"keccak256\":\"0x95d91305c27e3d9672c7b7f5854b83c93fbfc3693843cf201f1e94b446290655\",\"license\":\"UNLICENSED\"},\"contracts/interfaces/IPancakePair.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity 0.8.11;\\n\\ninterface IPancakePair {\\n    event Approval(\\n        address indexed owner,\\n        address indexed spender,\\n        uint256 value\\n    );\\n    event Transfer(address indexed from, address indexed to, uint256 value);\\n\\n    function name() external pure returns (string memory);\\n\\n    function symbol() external pure returns (string memory);\\n\\n    function decimals() external pure returns (uint8);\\n\\n    function totalSupply() external view returns (uint256);\\n\\n    function balanceOf(address owner) external view returns (uint256);\\n\\n    function allowance(address owner, address spender)\\n        external\\n        view\\n        returns (uint256);\\n\\n    function approve(address spender, uint256 value) external returns (bool);\\n\\n    function transfer(address to, uint256 value) external returns (bool);\\n\\n    function transferFrom(\\n        address from,\\n        address to,\\n        uint256 value\\n    ) external returns (bool);\\n\\n    function DOMAIN_SEPARATOR() external view returns (bytes32);\\n\\n    function PERMIT_TYPEHASH() external pure returns (bytes32);\\n\\n    function nonces(address owner) external view returns (uint256);\\n\\n    function permit(\\n        address owner,\\n        address spender,\\n        uint256 value,\\n        uint256 deadline,\\n        uint8 v,\\n        bytes32 r,\\n        bytes32 s\\n    ) external;\\n\\n    event Mint(address indexed sender, uint256 amount0, uint256 amount1);\\n    event Burn(\\n        address indexed sender,\\n        uint256 amount0,\\n        uint256 amount1,\\n        address indexed to\\n    );\\n    event Swap(\\n        address indexed sender,\\n        uint256 amount0In,\\n        uint256 amount1In,\\n        uint256 amount0Out,\\n        uint256 amount1Out,\\n        address indexed to\\n    );\\n    event Sync(uint112 reserve0, uint112 reserve1);\\n\\n    function MINIMUM_LIQUIDITY() external pure returns (uint256);\\n\\n    function factory() external view returns (address);\\n\\n    function token0() external view returns (address);\\n\\n    function token1() external view returns (address);\\n\\n    function getReserves()\\n        external\\n        view\\n        returns (\\n            uint112 reserve0,\\n            uint112 reserve1,\\n            uint32 blockTimestampLast\\n        );\\n\\n    function price0CumulativeLast() external view returns (uint256);\\n\\n    function price1CumulativeLast() external view returns (uint256);\\n\\n    function kLast() external view returns (uint256);\\n\\n    function mint(address to) external returns (uint256 liquidity);\\n\\n    function burn(address to)\\n        external\\n        returns (uint256 amount0, uint256 amount1);\\n\\n    function swap(\\n        uint256 amount0Out,\\n        uint256 amount1Out,\\n        address to,\\n        bytes calldata data\\n    ) external;\\n\\n    function skim(address to) external;\\n\\n    function sync() external;\\n\\n    function initialize(address, address) external;\\n}\\n\",\"keccak256\":\"0x9994c4ea606c9e6e1c9b650e24850a2e6dab3bc9a7dbcb7bcb19be350f1c8c5f\",\"license\":\"UNLICENSED\"},\"contracts/interfaces/IPancakeRouter.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\ninterface IPancakeRouter01 {\\n    function factory() external view returns (address);\\n\\n    function WETH() external view returns (address);\\n\\n    function addLiquidity(\\n        address tokenA,\\n        address tokenB,\\n        uint256 amountADesired,\\n        uint256 amountBDesired,\\n        uint256 amountAMin,\\n        uint256 amountBMin,\\n        address to,\\n        uint256 deadline\\n    )\\n        external\\n        returns (\\n            uint256 amountA,\\n            uint256 amountB,\\n            uint256 liquidity\\n        );\\n\\n    function addLiquidityETH(\\n        address token,\\n        uint256 amountTokenDesired,\\n        uint256 amountTokenMin,\\n        uint256 amountETHMin,\\n        address to,\\n        uint256 deadline\\n    )\\n        external\\n        payable\\n        returns (\\n            uint256 amountToken,\\n            uint256 amountETH,\\n            uint256 liquidity\\n        );\\n\\n    function removeLiquidity(\\n        address tokenA,\\n        address tokenB,\\n        uint256 liquidity,\\n        uint256 amountAMin,\\n        uint256 amountBMin,\\n        address to,\\n        uint256 deadline\\n    ) external returns (uint256 amountA, uint256 amountB);\\n\\n    function removeLiquidityETH(\\n        address token,\\n        uint256 liquidity,\\n        uint256 amountTokenMin,\\n        uint256 amountETHMin,\\n        address to,\\n        uint256 deadline\\n    ) external returns (uint256 amountToken, uint256 amountETH);\\n\\n    function removeLiquidityWithPermit(\\n        address tokenA,\\n        address tokenB,\\n        uint256 liquidity,\\n        uint256 amountAMin,\\n        uint256 amountBMin,\\n        address to,\\n        uint256 deadline,\\n        bool approveMax,\\n        uint8 v,\\n        bytes32 r,\\n        bytes32 s\\n    ) external returns (uint256 amountA, uint256 amountB);\\n\\n    function removeLiquidityETHWithPermit(\\n        address token,\\n        uint256 liquidity,\\n        uint256 amountTokenMin,\\n        uint256 amountETHMin,\\n        address to,\\n        uint256 deadline,\\n        bool approveMax,\\n        uint8 v,\\n        bytes32 r,\\n        bytes32 s\\n    ) external returns (uint256 amountToken, uint256 amountETH);\\n\\n    function swapExactTokensForTokens(\\n        uint256 amountIn,\\n        uint256 amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external returns (uint256[] memory amounts);\\n\\n    function swapTokensForExactTokens(\\n        uint256 amountOut,\\n        uint256 amountInMax,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external returns (uint256[] memory amounts);\\n\\n    function swapExactETHForTokens(\\n        uint256 amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external payable returns (uint256[] memory amounts);\\n\\n    function swapTokensForExactETH(\\n        uint256 amountOut,\\n        uint256 amountInMax,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external returns (uint256[] memory amounts);\\n\\n    function swapExactTokensForETH(\\n        uint256 amountIn,\\n        uint256 amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external returns (uint256[] memory amounts);\\n\\n    function swapETHForExactTokens(\\n        uint256 amountOut,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external payable returns (uint256[] memory amounts);\\n\\n    function quote(\\n        uint256 amountA,\\n        uint256 reserveA,\\n        uint256 reserveB\\n    ) external pure returns (uint256 amountB);\\n\\n    function getAmountOut(\\n        uint256 amountIn,\\n        uint256 reserveIn,\\n        uint256 reserveOut\\n    ) external pure returns (uint256 amountOut);\\n\\n    function getAmountIn(\\n        uint256 amountOut,\\n        uint256 reserveIn,\\n        uint256 reserveOut\\n    ) external pure returns (uint256 amountIn);\\n\\n    function getAmountsOut(uint256 amountIn, address[] calldata path)\\n        external\\n        view\\n        returns (uint256[] memory amounts);\\n\\n    function getAmountsIn(uint256 amountOut, address[] calldata path)\\n        external\\n        view\\n        returns (uint256[] memory amounts);\\n}\\n\\ninterface IPancakeRouter02 is IPancakeRouter01 {\\n    function removeLiquidityETHSupportingFeeOnTransferTokens(\\n        address token,\\n        uint256 liquidity,\\n        uint256 amountTokenMin,\\n        uint256 amountETHMin,\\n        address to,\\n        uint256 deadline\\n    ) external returns (uint256 amountETH);\\n\\n    function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(\\n        address token,\\n        uint256 liquidity,\\n        uint256 amountTokenMin,\\n        uint256 amountETHMin,\\n        address to,\\n        uint256 deadline,\\n        bool approveMax,\\n        uint8 v,\\n        bytes32 r,\\n        bytes32 s\\n    ) external returns (uint256 amountETH);\\n\\n    function swapExactTokensForTokensSupportingFeeOnTransferTokens(\\n        uint256 amountIn,\\n        uint256 amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external;\\n\\n    function swapExactETHForTokensSupportingFeeOnTransferTokens(\\n        uint256 amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external payable;\\n\\n    function swapExactTokensForETHSupportingFeeOnTransferTokens(\\n        uint256 amountIn,\\n        uint256 amountOutMin,\\n        address[] calldata path,\\n        address to,\\n        uint256 deadline\\n    ) external;\\n}\\n\",\"keccak256\":\"0x40ff7201ca90e848ee6f006c4d114891619f28c21e713d74dc62b1ffc48d0461\",\"license\":\"UNLICENSED\"},\"contracts/libraries/VerifySignature.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity 0.8.11;\\n\\nimport \\\"../interfaces/IMessageStructure.sol\\\";\\n\\nlibrary VerifySignature {\\n    bytes32 private constant EIP712_DOMAIN_TYPEHASH =\\n        keccak256(\\n            \\\"EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)\\\"\\n        );\\n\\n    bytes32 private constant MESSAGE_TYPEHASH =\\n        keccak256(\\n            \\\"Bridge(string swapType,address account,string base,string quote,uint256 fee,uint256 amount,uint256 exchange,uint256 deadline,uint256 nonce)\\\"\\n        );\\n\\n    function getMessageHash(IMessageStructure.Message memory _message)\\n        internal\\n        pure\\n        returns (bytes32)\\n    {\\n        return\\n            keccak256(\\n                abi.encode(\\n                    MESSAGE_TYPEHASH,\\n                    keccak256(abi.encodePacked(_message.swapType)),\\n                    _message.account,\\n                    keccak256(abi.encodePacked(_message.base)),\\n                    keccak256(abi.encodePacked(_message.quote)),\\n                    _message.fee,\\n                    _message.amount,\\n                    _message.exchange,\\n                    _message.deadline,\\n                    _message.nonce\\n                )\\n            );\\n    }\\n\\n    function getDomainSeparatorHash(\\n        IMessageStructure.DomainSeparator memory _domain\\n    ) internal pure returns (bytes32) {\\n        return\\n            keccak256(\\n                abi.encode(\\n                    EIP712_DOMAIN_TYPEHASH,\\n                    keccak256(abi.encodePacked(_domain.name)),\\n                    keccak256(abi.encodePacked(_domain.version)),\\n                    _domain.chainId,\\n                    _domain.verifyingContract\\n                )\\n            );\\n    }\\n\\n    function getEthSignedMessageHash(bytes32 _domainHash, bytes32 _messageHash)\\n        internal\\n        pure\\n        returns (bytes32)\\n    {\\n        return\\n            keccak256(abi.encodePacked(\\\"\\\\x19\\\\x01\\\", _domainHash, _messageHash));\\n    }\\n\\n    function verify(\\n        address _signer,\\n        IMessageStructure.Message memory _message,\\n        IMessageStructure.DomainSeparator memory _domain,\\n        bytes memory signature\\n    ) internal pure returns (bool) {\\n        bytes32 domainHash = getDomainSeparatorHash(_domain);\\n        bytes32 messageHash = getMessageHash(_message);\\n        bytes32 ethSignedMessageHash = getEthSignedMessageHash(\\n            domainHash,\\n            messageHash\\n        );\\n\\n        return recoverSigner(ethSignedMessageHash, signature) == _signer;\\n    }\\n\\n    function recoverSigner(\\n        bytes32 _ethSignedMessageHash,\\n        bytes memory _signature\\n    ) internal pure returns (address) {\\n        (bytes32 r, bytes32 s, uint8 v) = splitSignature(_signature);\\n\\n        return ecrecover(_ethSignedMessageHash, v, r, s);\\n    }\\n\\n    function splitSignature(bytes memory sig)\\n        internal\\n        pure\\n        returns (\\n            bytes32 r,\\n            bytes32 s,\\n            uint8 v\\n        )\\n    {\\n        require(sig.length == 65, \\\"invalid signature length\\\");\\n\\n        assembly {\\n            /*\\n            First 32 bytes stores the length of the signature\\n\\n            add(sig, 32) = pointer of sig + 32\\n            effectively, skips first 32 bytes of signature\\n\\n            mload(p) loads next 32 bytes starting at the memory address p into memory\\n            */\\n\\n            // first 32 bytes, after the length prefix\\n            r := mload(add(sig, 32))\\n            // second 32 bytes\\n            s := mload(add(sig, 64))\\n            // final byte (first byte of the next 32 bytes)\\n            v := byte(0, mload(add(sig, 96)))\\n        }\\n\\n        // implicitly return (r, s, v)\\n    }\\n}\\n\",\"keccak256\":\"0x32b87194003f60991dc27dfa428340105e3416159b045109683435cb11386393\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50604051610a51380380610a5183398101604081905261002f9161006b565b603b805460ff19166001179055603480546001600160a01b03929092166001600160a01b0319928316179055603580549091163317905561009b565b60006020828403121561007d57600080fd5b81516001600160a01b038116811461009457600080fd5b9392505050565b6109a7806100aa6000396000f3fe6080604052600436106100e15760003560e01c80638da5cb5b1161007f578063d4fde9c911610059578063d4fde9c914610288578063db6754ed146102a8578063e8153c93146102c8578063f7013ef6146102e8576100e8565b80638da5cb5b14610219578063a7d6dc1b14610239578063b8c9d25c14610268576100e8565b80634452d81c116100bb5780634452d81c1461019657806367fc9138146101ba5780638cf0e21e146101cf5780638d72647e146101f9576100e8565b806328016f9a146101225780633659cfe6146101395780633e47158c14610159576100e8565b366100e857005b6033546001600160a01b0316806100fe57600080fd5b3660008037600080366000845af43d6000803e80801561011d573d6000f35b3d6000fd5b34801561012e57600080fd5b50610137610308565b005b34801561014557600080fd5b50610137610154366004610797565b610353565b34801561016557600080fd5b50603454610179906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b3480156101a257600080fd5b506101ac603a5481565b60405190815260200161018d565b3480156101c657600080fd5b5061013761044c565b3480156101db57600080fd5b50603b546101e99060ff1681565b604051901515815260200161018d565b34801561020557600080fd5b50603654610179906001600160a01b031681565b34801561022557600080fd5b50603554610179906001600160a01b031681565b34801561024557600080fd5b506102596102543660046107b9565b61048b565b60405161018d939291906107e3565b34801561027457600080fd5b50603954610179906001600160a01b031681565b34801561029457600080fd5b50603354610179906001600160a01b031681565b3480156102b457600080fd5b50603854610179906001600160a01b031681565b3480156102d457600080fd5b50603754610179906001600160a01b031681565b3480156102f457600080fd5b50610137610303366004610847565b610541565b6034546001600160a01b0316336001600160a01b0316146103445760405162461bcd60e51b815260040161033b906108a3565b60405180910390fd5b603b805460ff19166001179055565b6035546001600160a01b0316336001600160a01b0316146103865760405162461bcd60e51b815260040161033b906108a3565b603b5460ff166103d85760405162461bcd60e51b815260206004820152601a60248201527f55706772616465206973206e6f7420656e61626c656420796574000000000000604482015260640161033b565b6033546001600160a01b03828116911614156104365760405162461bcd60e51b815260206004820152601d60248201527f497320616c72656164792074686520696d706c656d656e746174696f6e000000604482015260640161033b565b61043f8161063c565b50603b805460ff19169055565b6034546001600160a01b0316336001600160a01b03161461047f5760405162461bcd60e51b815260040161033b906108a3565b603b805460ff19169055565b603c602090815260009283526040808420909152908252902080546001820154600283018054929391926104be906108e8565b80601f01602080910402602001604051908101604052809291908181526020018280546104ea906108e8565b80156105375780601f1061050c57610100808354040283529160200191610537565b820191906000526020600020905b81548152906001019060200180831161051a57829003601f168201915b5050505050905083565b600054610100900460ff168061055a575060005460ff16155b6105765760405162461bcd60e51b815260040161033b90610923565b600054610100900460ff16158015610598576000805461ffff19166101011790555b6035546001600160a01b0316336001600160a01b0316146105cb5760405162461bcd60e51b815260040161033b906108a3565b6105d361069d565b603880546001600160a01b038089166001600160a01b03199283161790925560398054888416908316179055603680548784169083161790556037805492861692909116919091179055603a8290558015610634576000805461ff00191690555b505050505050565b603380546001600160a01b038381166001600160a01b031983168117909355604080519190921680825260208201939093527f1a5ca99a64512489fd9455e8da426740174107a69292fca0a8b80b08f6f67892910160405180910390a15050565b600054610100900460ff16806106b6575060005460ff16155b6106d25760405162461bcd60e51b815260040161033b90610923565b600054610100900460ff161580156106f4576000805461ffff19166101011790555b6106fc610711565b801561070e576000805461ff00191690555b50565b600054610100900460ff168061072a575060005460ff16155b6107465760405162461bcd60e51b815260040161033b90610923565b600054610100900460ff161580156106fc576000805461ffff1916610101179055801561070e576000805461ff001916905550565b80356001600160a01b038116811461079257600080fd5b919050565b6000602082840312156107a957600080fd5b6107b28261077b565b9392505050565b600080604083850312156107cc57600080fd5b6107d58361077b565b946020939093013593505050565b83815260006020848184015260606040840152835180606085015260005b8181101561081d57858101830151858201608001528201610801565b8181111561082f576000608083870101525b50601f01601f19169290920160800195945050505050565b600080600080600060a0868803121561085f57600080fd5b6108688661077b565b94506108766020870161077b565b93506108846040870161077b565b92506108926060870161077b565b949793965091946080013592915050565b60208082526025908201527f63616e206f6e6c792062652063616c6c6564206279207468652070726f78792060408201526430b236b4b760d91b606082015260800190565b600181811c908216806108fc57607f821691505b6020821081141561091d57634e487b7160e01b600052602260045260246000fd5b50919050565b6020808252602e908201527f496e697469616c697a61626c653a20636f6e747261637420697320616c72656160408201526d191e481a5b9a5d1a585b1a5e995960921b60608201526080019056fea26469706673582212206555c59d495632115ce49464a694055193067891806c99fcd51eb0df1d71ad3464736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600436106100e15760003560e01c80638da5cb5b1161007f578063d4fde9c911610059578063d4fde9c914610288578063db6754ed146102a8578063e8153c93146102c8578063f7013ef6146102e8576100e8565b80638da5cb5b14610219578063a7d6dc1b14610239578063b8c9d25c14610268576100e8565b80634452d81c116100bb5780634452d81c1461019657806367fc9138146101ba5780638cf0e21e146101cf5780638d72647e146101f9576100e8565b806328016f9a146101225780633659cfe6146101395780633e47158c14610159576100e8565b366100e857005b6033546001600160a01b0316806100fe57600080fd5b3660008037600080366000845af43d6000803e80801561011d573d6000f35b3d6000fd5b34801561012e57600080fd5b50610137610308565b005b34801561014557600080fd5b50610137610154366004610797565b610353565b34801561016557600080fd5b50603454610179906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b3480156101a257600080fd5b506101ac603a5481565b60405190815260200161018d565b3480156101c657600080fd5b5061013761044c565b3480156101db57600080fd5b50603b546101e99060ff1681565b604051901515815260200161018d565b34801561020557600080fd5b50603654610179906001600160a01b031681565b34801561022557600080fd5b50603554610179906001600160a01b031681565b34801561024557600080fd5b506102596102543660046107b9565b61048b565b60405161018d939291906107e3565b34801561027457600080fd5b50603954610179906001600160a01b031681565b34801561029457600080fd5b50603354610179906001600160a01b031681565b3480156102b457600080fd5b50603854610179906001600160a01b031681565b3480156102d457600080fd5b50603754610179906001600160a01b031681565b3480156102f457600080fd5b50610137610303366004610847565b610541565b6034546001600160a01b0316336001600160a01b0316146103445760405162461bcd60e51b815260040161033b906108a3565b60405180910390fd5b603b805460ff19166001179055565b6035546001600160a01b0316336001600160a01b0316146103865760405162461bcd60e51b815260040161033b906108a3565b603b5460ff166103d85760405162461bcd60e51b815260206004820152601a60248201527f55706772616465206973206e6f7420656e61626c656420796574000000000000604482015260640161033b565b6033546001600160a01b03828116911614156104365760405162461bcd60e51b815260206004820152601d60248201527f497320616c72656164792074686520696d706c656d656e746174696f6e000000604482015260640161033b565b61043f8161063c565b50603b805460ff19169055565b6034546001600160a01b0316336001600160a01b03161461047f5760405162461bcd60e51b815260040161033b906108a3565b603b805460ff19169055565b603c602090815260009283526040808420909152908252902080546001820154600283018054929391926104be906108e8565b80601f01602080910402602001604051908101604052809291908181526020018280546104ea906108e8565b80156105375780601f1061050c57610100808354040283529160200191610537565b820191906000526020600020905b81548152906001019060200180831161051a57829003601f168201915b5050505050905083565b600054610100900460ff168061055a575060005460ff16155b6105765760405162461bcd60e51b815260040161033b90610923565b600054610100900460ff16158015610598576000805461ffff19166101011790555b6035546001600160a01b0316336001600160a01b0316146105cb5760405162461bcd60e51b815260040161033b906108a3565b6105d361069d565b603880546001600160a01b038089166001600160a01b03199283161790925560398054888416908316179055603680548784169083161790556037805492861692909116919091179055603a8290558015610634576000805461ff00191690555b505050505050565b603380546001600160a01b038381166001600160a01b031983168117909355604080519190921680825260208201939093527f1a5ca99a64512489fd9455e8da426740174107a69292fca0a8b80b08f6f67892910160405180910390a15050565b600054610100900460ff16806106b6575060005460ff16155b6106d25760405162461bcd60e51b815260040161033b90610923565b600054610100900460ff161580156106f4576000805461ffff19166101011790555b6106fc610711565b801561070e576000805461ff00191690555b50565b600054610100900460ff168061072a575060005460ff16155b6107465760405162461bcd60e51b815260040161033b90610923565b600054610100900460ff161580156106fc576000805461ffff1916610101179055801561070e576000805461ff001916905550565b80356001600160a01b038116811461079257600080fd5b919050565b6000602082840312156107a957600080fd5b6107b28261077b565b9392505050565b600080604083850312156107cc57600080fd5b6107d58361077b565b946020939093013593505050565b83815260006020848184015260606040840152835180606085015260005b8181101561081d57858101830151858201608001528201610801565b8181111561082f576000608083870101525b50601f01601f19169290920160800195945050505050565b600080600080600060a0868803121561085f57600080fd5b6108688661077b565b94506108766020870161077b565b93506108846040870161077b565b92506108926060870161077b565b949793965091946080013592915050565b60208082526025908201527f63616e206f6e6c792062652063616c6c6564206279207468652070726f78792060408201526430b236b4b760d91b606082015260800190565b600181811c908216806108fc57607f821691505b6020821081141561091d57634e487b7160e01b600052602260045260246000fd5b50919050565b6020808252602e908201527f496e697469616c697a61626c653a20636f6e747261637420697320616c72656160408201526d191e481a5b9a5d1a585b1a5e995960921b60608201526080019056fea26469706673582212206555c59d495632115ce49464a694055193067891806c99fcd51eb0df1d71ad3464736f6c634300080b0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 413,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "_initialized",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_bool"
+      },
+      {
+        "astId": 416,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "_initializing",
+        "offset": 1,
+        "slot": "0",
+        "type": "t_bool"
+      },
+      {
+        "astId": 1641,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "__gap",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_array(t_uint256)50_storage"
+      },
+      {
+        "astId": 2484,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "bscBridgeAgentImpl",
+        "offset": 0,
+        "slot": "51",
+        "type": "t_address"
+      },
+      {
+        "astId": 2486,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "proxyAdmin",
+        "offset": 0,
+        "slot": "52",
+        "type": "t_address"
+      },
+      {
+        "astId": 2488,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "owner",
+        "offset": 0,
+        "slot": "53",
+        "type": "t_address"
+      },
+      {
+        "astId": 2490,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "wbnb",
+        "offset": 0,
+        "slot": "54",
+        "type": "t_address"
+      },
+      {
+        "astId": 2492,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "totemToken",
+        "offset": 0,
+        "slot": "55",
+        "type": "t_address"
+      },
+      {
+        "astId": 2494,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "pancakeswapRouter",
+        "offset": 0,
+        "slot": "56",
+        "type": "t_address"
+      },
+      {
+        "astId": 2496,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "pancakePair",
+        "offset": 0,
+        "slot": "57",
+        "type": "t_address"
+      },
+      {
+        "astId": 2498,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "slippagePercentage",
+        "offset": 0,
+        "slot": "58",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 2500,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "upgradeEnabled",
+        "offset": 0,
+        "slot": "59",
+        "type": "t_bool"
+      },
+      {
+        "astId": 2507,
+        "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+        "label": "swapDataMap",
+        "offset": 0,
+        "slot": "60",
+        "type": "t_mapping(t_address,t_mapping(t_bytes32,t_struct(SwapData)2482_storage))"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_uint256)50_storage": {
+        "base": "t_uint256",
+        "encoding": "inplace",
+        "label": "uint256[50]",
+        "numberOfBytes": "1600"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_bytes32": {
+        "encoding": "inplace",
+        "label": "bytes32",
+        "numberOfBytes": "32"
+      },
+      "t_mapping(t_address,t_mapping(t_bytes32,t_struct(SwapData)2482_storage))": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => mapping(bytes32 => struct BSCBridgeAgentStorageStructure.SwapData))",
+        "numberOfBytes": "32",
+        "value": "t_mapping(t_bytes32,t_struct(SwapData)2482_storage)"
+      },
+      "t_mapping(t_bytes32,t_struct(SwapData)2482_storage)": {
+        "encoding": "mapping",
+        "key": "t_bytes32",
+        "label": "mapping(bytes32 => struct BSCBridgeAgentStorageStructure.SwapData)",
+        "numberOfBytes": "32",
+        "value": "t_struct(SwapData)2482_storage"
+      },
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      },
+      "t_struct(SwapData)2482_storage": {
+        "encoding": "inplace",
+        "label": "struct BSCBridgeAgentStorageStructure.SwapData",
+        "members": [
+          {
+            "astId": 2477,
+            "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+            "label": "nonce",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 2479,
+            "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+            "label": "exchange",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 2481,
+            "contract": "contracts/BSCAgent/BSCBridgeAgentProxy.sol:BSCBridgeAgentProxy",
+            "label": "swapType",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_string_storage"
+          }
+        ],
+        "numberOfBytes": "96"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
